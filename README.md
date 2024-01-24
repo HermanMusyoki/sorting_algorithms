@@ -30,13 +30,13 @@ so you could get its idea literally that it's used to order something to compare
 In practice, there are a very limited number of big-Oh expressions that you will encounter and need to worry about:
 
 The good:
-O(1) Constant: The program takes the same time to run no matter how big the input is.
-O(log n) Logarithmic: The program run-time increases only slowly, even with big increases in the size of the input.
+- O(1) Constant: The program takes the same time to run no matter how big the input is.
+- O(log n) Logarithmic: The program run-time increases only slowly, even with big increases in the size of the input.
 
 The bad:
-O(n) Linear: The program run-time increases proportionally to the size of the input.
-O(n^k) Polynomial: - Processing time grows faster and faster - as a polynomial function - as the size of the input increases.
+- O(n) Linear: The program run-time increases proportionally to the size of the input.
+- O(n^k) Polynomial: - Processing time grows faster and faster - as a polynomial function - as the size of the input increases.
 ... and the ugly:
 
-O(k^n) Exponential The program run-time increases very quickly with even moderate increases in the size of the problem - it is only practical to process small data sets with exponential algorithms.
-O(n!) Factorial The program run-time will be longer than you can afford to wait for anything but the very smallest and most trivial-seeming datasets. 
+- O(k^n) Exponential The program run-time increases very quickly with even moderate increases in the size of the problem - it is only practical to process small data sets with exponential algorithms.
+- O(n!) Factorial The program run-time will be longer than you can afford to wait for anything but the very smallest and most trivial-seeming datasets. 
